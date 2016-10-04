@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TuesCarQuiz v1.0</string>
+    <string name="title_activity_wrong_page">wrong_page</string>
+    <string name="title_activity_page_2false">page_2false</string>
+</resources>

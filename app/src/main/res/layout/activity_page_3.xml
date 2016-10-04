@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/q9"
+        android:layout_weight="1.01" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Lancia"
+        android:id="@+id/but8"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Alfa Romeo"
+        android:id="@+id/but9"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Fiat"
+        android:id="@+id/button_correct2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Maserati"
+        android:id="@+id/but10"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_light"/>
+</LinearLayout>

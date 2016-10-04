@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/q8"
+        android:layout_weight="1.01" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Citroen"
+        android:id="@+id/button_correct1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Peugeot"
+        android:id="@+id/but5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Renault"
+        android:id="@+id/but6"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Ferrari"
+        android:id="@+id/but7"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+</LinearLayout>
